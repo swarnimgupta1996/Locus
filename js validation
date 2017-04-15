@@ -1,0 +1,50 @@
+function validate(){
+  console.log('going to validate');
+if(nameV=='' || nameV==null)
+{
+  $("#msgDisplay2").html("Name is required");
+  return false;
+}
+if(nameV.length <3 || nameV.length>20){
+  $("#msgDisplay2").html("name should contain atleast 3 characters and atmost 20 characters");
+  return false;
+}
+
+
+if (/\S/.test(nameV)==false)
+  {
+    $("#msgDisplay2").html("name should  contain only alphabets and space");
+    return false;
+  }
+
+var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  if(!re.test(email))
+  {
+    $("#msgDisplay2").html("Enter a valid Email");
+    return false;
+  }
+       if(pwdV=='' || pwdV==null)
+       {
+         $("#msgDisplay2").html("password is required");
+         return false;
+       }
+  if(pwdV.length<6){
+    $("#msgDisplay2").html("password should have atleast 6 characters");
+    return false;
+   }
+   var flag=false;
+  for(i=0;i<pwdV.length;i++){
+    if(!pwdv[i].isNaN())
+     {flag=true;break;}
+  }
+if(flag==false)
+{  $("#msgDisplay2").html("Password should contain atleast one number");
+return false;
+}
+if(cpwdV!=pwdV){
+   $("#msgDisplay2").html("passwords do not match");
+   return false;
+ }
+}
+console.log('yoo');
+validate();

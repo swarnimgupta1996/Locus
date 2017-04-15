@@ -1,0 +1,235 @@
+
+.navigation-bar{
+	position:fixed;
+    top: 0;
+    width: 100%;
+	z-index:100;
+
+}
+
+.search{
+	width:63%;
+	padding-top:7px;
+}
+
+
+
+.container{
+	margin-top:100px;
+	z-index:10;
+}
+.top1{
+		background-color:#DFD6D6;
+}
+.top2{
+padding-top:2px;
+background-color:black;
+height:50px;
+}
+#btns{
+	background-color:rgb(255,218,185);
+	color:black;
+	border-color:rgb(255,218,185);
+	transition: all 0.5s;
+}
+#btns:hover{
+	transition: all 0.5s;
+	background-color:rgba(255,218,185,0.4);
+	color:black;
+	border-color:rgb(255,218,185);
+}
+#btns:after{
+	transition: all 0.5s;
+
+}
+#msgDisplay2{
+	background-color: #D0C7C7;
+	font-weight:500;
+	border-radius: 3px;
+
+}
+.location-btn{
+  float:right;
+  padding-top:10px;
+   padding-bottom:10px;
+   border-radius:0;
+}
+.login-register-btn{
+  float:right;
+  padding-top:10px;
+   padding-bottom:10px;
+   border-radius:0;
+   margin-right:2px;
+}
+#user_name{
+	text-transform:capitalize;
+	font-size:19px;
+	margin-top:5px;
+	margin-right: 10px;
+	font-weight: 400;
+  float:right;
+
+}
+.dropbtn {
+    background-color: #4CAF50;
+    padding: 14px 26px;
+	margin-right:60px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top:-2px;
+}
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+
+     display: none;
+    position:absolute ;
+
+    background-color: #f9f9f9;
+    min-width: 800px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.heading{
+color:#E62041;
+}
+.thumbnail{
+	width:100%;
+	height:220px;
+	background-color:rgb(255,218,185);
+	margin-left:10px;
+	margin-top:10px;
+	text-align:center;
+}
+
+.thumbnail:hover{
+	transition: all 0.5s;
+	opacity:0.9;
+	position:relative;
+	top:5px;
+}
+.thumbnail:after{
+	transition: all 0.5s;
+}
+#icon{
+	width:210px;
+	height:150px;
+	margin-top:20px;
+
+}
+
+
+.pac-container {
+    z-index: 999999 !important;
+}
+
+
+
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+
+.item img{
+	  height:195px;
+    width:100%;
+}
+
+ .carousel-control {
+            min-width: 10px;
+            max-width: 100px;
+        }
+        .carousel-control, .carousel-control.left, .carousel-control.right {
+            background-image: none;
+        }
+          .carousel-control span {
+            width: auto !important;
+            height: auto !important;
+            border-radius: 50%;
+            padding: 5px;
+            background-image: -webkit-radial-gradient(circle at center, rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+            background-image: -o-radial-gradient(circle at center, rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+            background-image: radial-gradient(circle at center, rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);100%);
+        }
+
+   .carousel-inner > .item > img {
+            overflow: hidden;
+        }
+        .carousel-inner > .item, .carousel-inner > .item > img.scale {
+            max-height: 200px;
+        }
+        @media screen and (min-width: 768px) {
+            .carousel-inner > .item, .carousel-inner > .item > img.scale {
+                max-height: 400px;
+            }
+        }
+
+
+.carousel-control.left{
+margin-left: -33px;
+font-size: 70px;
+margin-top: -60px;
+}
+
+.carousel-control.right{
+margin-right: -33px;
+font-size: 70px;
+margin-top: -60px;
+}
+
+.carousel-control.right,.carousel-control.left{
+	color: black;
+
+
+}
+.carousel-control.right a,.carousel-control.left a{
+	margin: auto;
+}
+
+
+
+
+.item .col-sm-3:hover{
+	transition: all 0.5s;
+	opacity:0.9;
+	position:relative;
+	top:3px;
+}
+.item:after{
+	transition: all 0.5s;
+}
+
+div.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+div.card:hover{
+	transition: all 0.5s;
+	opacity:0.9;
+	position:relative;
+	top:5px;
+}
+div.card:after{
+	transition: all 0.5s;
+}
